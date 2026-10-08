@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Local model/cache files
+*.log
+
+# Environment and secrets
+.env
+.env.*
+
+# Google Cloud credentials
+*.json
+!app/model.pkl
+
+# Python cache
+**/__pycache__/
